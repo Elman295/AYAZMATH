@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="449.0" prefWidth="703.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Circle">
+    <children>
+        <Label layoutX="317.0" layoutY="56.0" text="Draw" />
+        <Label layoutX="151.0" layoutY="145.0" text="x:" />
+        <Label layoutX="151.0" layoutY="193.0" text="y:" />
+        <Label layoutX="150.0" layoutY="241.0" text="R:" />
+        <TextField layoutX="224.0" layoutY="140.0" fx:id="xtxt" />
+        <TextField fx:id="ytxt" layoutX="224.0" layoutY="188.0" />
+        <TextField fx:id="rtxt" layoutX="224.0" layoutY="236.0" />
+        <Button fx:id="drawbtn" layoutX="270.0" layoutY="320.0" mnemonicParsing="false" onAction="#Drawactioncircle" text="Draw" />
+    </children>
+</AnchorPane>

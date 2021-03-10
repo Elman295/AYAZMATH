@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.chart.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="545.0" prefWidth="647.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <Label layoutX="296.0" layoutY="66.0" text="Welcome!" textAlignment="CENTER" textFill="#200aa3">
+            <font>
+                <Font name="Bookman Old Style" size="18.0" />
+            </font>
+        </Label>
+        <ImageView fitHeight="102.0" fitWidth="117.0" layoutX="475.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+
+                <Image url="@../IdeaProjects/AYAZMATH/src/ayaz.png" />
+
+
+            </image>
+        </ImageView>
+        <Button fx:id="drawlinebtn" layoutX="443.0" layoutY="233.0" mnemonicParsing="false" onAction="#Drawlineaction" text="draw two line" />
+
+        <Button fx:id="quarbtn" layoutX="81.0" layoutY="233.0" mnemonicParsing="false" onAction="#quaraction" text="quadratic equation" />
+        <Button fx:id="drawcircle" layoutX="266.0" layoutY="233.0" mnemonicParsing="false" onAction="#Drawciecleaction" text="draw circle" />
+
+    </children>
+</AnchorPane>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="437.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.quardinic">
+    <children>
+        <Label layoutX="251.0" layoutY="64.0" text="ax^2 +bx+c=0" />
+        <Label layoutX="115.0" layoutY="132.0" text="a:" />
+        <Label layoutX="115.0" layoutY="185.0" text="b:" />
+        <Label layoutX="115.0" layoutY="239.0" text="c:" />
+        <TextField fx:id="atxt" layoutX="188.0" layoutY="127.0" onAction="#aaction" promptText="a" />
+        <TextField fx:id="btxt" layoutX="188.0" layoutY="180.0" onAction="#baction" promptText="b" />
+        <TextField fx:id="ctxt" layoutX="188.0" layoutY="234.0" onAction="#caction" promptText="c" />
+        <Text fx:id="answer1" layoutX="174.0" layoutY="380.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+        <Text fx:id="answer2" layoutX="392.0" layoutY="380.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+        <Text fx:id="noanswer" layoutX="482.0" layoutY="201.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+        <Button fx:id="solve" layoutX="235.0" layoutY="291.0" mnemonicParsing="false" onAction="#solveaction" text="solve" />
+    </children>
+</AnchorPane>
